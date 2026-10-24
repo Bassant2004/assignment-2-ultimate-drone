@@ -754,3 +754,77 @@ button {
 .pay-card img {
   height: 12px;
 }
+@media (max-width: 768px) {
+  
+  .d-flex, .navbar, .reviews-box, .bottom-div, .related-products {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+  }
+
+  .navbar {
+    padding: 15px 20px;
+  }
+  .nav-links {
+    gap: 15px;
+  }
+
+  .hero-section {
+    margin-top: 120px;  
+  }
+  .product-image {
+    width: 100%; 
+    max-width: 350px;
+  }
+  .product-details h1 {
+    font-size: 32px;  
+    text-align: center;
+  }
+  .product-details p, .price-size {
+    text-align: center;
+  }
+  .buttons {
+    width: 100%;
+  }
+
+  .cards {
+    width: 100%;  
+  }
+  .explore {
+    width: 100%;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+  }
+  .btn3 {
+    position: static;  
+    margin-top: 15px;
+    width: 100%;
+  }
+
+  
+  .reviews-section {
+    width: 100%;
+  }
+  .summary-card {
+    width: 100%; 
+  }
+  .reviews-list {
+    width: 100%;
+  }
+  .review-card {
+    width: 100%;
+  }
+  .user-header {
+    flex-direction: row; 
+  }
+
+  .box {
+    width: 100%; 
+    max-width: 320px;
+  }
+  .img-box img {
+    width: 50%; 
+  }
+}
